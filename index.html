@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TableEase — Đặt bàn nhà hàng</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#"><span class="logo-mark">T</span> TableEase</a>
+      <nav><a href="#experience">Trải nghiệm</a><a href="#menu">Thực đơn</a><a href="#booking">Đặt bàn</a></nav>
+      <a class="nav-cta" href="#booking">Đặt bàn ngay</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">ẨM THỰC • KẾT NỐI • TRẢI NGHIỆM</p>
+          <h1>Một chiếc bàn.<br><span>Ngàn câu chuyện.</span></h1>
+          <p>Đặt bàn dễ dàng cho những buổi hẹn hò, bữa ăn gia đình hay cuộc gặp gỡ đáng nhớ.</p>
+          <a class="primary-button" href="#booking">Đặt bàn của bạn <span>↗</span></a>
+          <div class="hero-note"><span class="status-dot"></span> Đặt chỗ trực tuyến trong vài bước đơn giản</div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image" role="img" aria-label="Không gian nhà hàng ấm cúng"></div>
+          <div class="floating-card"><span class="floating-icon">✦</span><div><strong>Trải nghiệm ấm cúng</strong><small>Dành cho những khoảnh khắc đặc biệt</small></div></div>
+          <div class="hero-number"><strong>01</strong><span>Không gian<br>của bạn</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="container experience section">
+      <div class="section-intro"><p class="eyebrow">TẠI SAO CHỌN CHÚNG TÔI</p><h2>Đặt chỗ nhẹ nhàng,<br>trải nghiệm trọn vẹn.</h2></div>
+      <div class="feature-grid">
+        <article class="feature"><span class="feature-icon">◷</span><h3>Đặt bàn nhanh</h3><p>Chọn ngày, giờ và số lượng khách chỉ trong vài thao tác.</p></article>
+        <article class="feature"><span class="feature-icon">♡</span><h3>Chọn chỗ phù hợp</h3><p>Ghi chú vị trí mong muốn và dịp đặc biệt của bạn.</p></article>
+        <article class="feature"><span class="feature-icon">✓</span><h3>Thông tin rõ ràng</h3><p>Xem lại chi tiết đặt bàn trước khi gửi yêu cầu.</p></article>
+      </div>
+    </section>
+    <section id="menu" class="menu-section section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">GỢI Ý TỪ BẾP</p><h2>Một chút cảm hứng ẩm thực</h2></div><p>Tham khảo vài món được yêu thích tại nhà hàng.</p></div>
+        <div class="menu-grid">
+          <article class="menu-card"><div class="menu-art art-one">🥗</div><div class="menu-info"><span>KHAI VỊ</span><h3>Salad vườn tươi</h3><p>Rau xanh, cà chua bi và sốt đặc biệt.</p></div></article>
+          <article class="menu-card"><div class="menu-art art-two">🍝</div><div class="menu-info"><span>MÓN CHÍNH</span><h3>Mì Ý sốt cà chua</h3><p>Hương vị đậm đà, dùng kèm thảo mộc.</p></div></article>
+          <article class="menu-card"><div class="menu-art art-three">🍰</div><div class="menu-info"><span>TRÁNG MIỆNG</span><h3>Bánh ngọt trong ngày</h3><p>Món ngọt nhẹ nhàng khép lại bữa ăn.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section id="booking" class="booking-section section">
+      <div class="container booking-layout">
+        <div class="booking-copy">
+          <p class="eyebrow">HẸN GẶP BẠN SỚM</p><h2>Giữ chỗ cho<br><span>khoảnh khắc của bạn.</span></h2>
+          <p>Điền thông tin để gửi yêu cầu đặt bàn. Đây là bản demo phục vụ học tập; nhà hàng chưa nhận được dữ liệu đặt chỗ thật.</p>
+          <div class="contact-detail"><span>⌖</span><div><strong>Địa điểm</strong><p>123 Đường Ẩm Thực, TP. Hồ Chí Minh</p></div></div>
+          <div class="contact-detail"><span>◷</span><div><strong>Giờ phục vụ mẫu</strong><p>10:00 – 22:00 mỗi ngày</p></div></div>
+        </div>
+        <div class="booking-card">
+          <div class="booking-card-heading"><div><p class="eyebrow">ĐẶT CHỖ TRỰC TUYẾN</p><h3>Thông tin đặt bàn</h3></div><span class="step-badge">01 / 01</span></div>
+          <form id="booking-form">
+            <div class="form-row"><label>Họ và tên<input name="name" required placeholder="Tên người đặt"></label><label>Số điện thoại<input name="phone" required type="tel" pattern="[0-9+() .-]{8,20}" placeholder="09xxxxxxxx"></label></div>
+            <div class="form-row"><label>Ngày đặt bàn<input id="booking-date" name="date" required type="date"></label><label>Giờ đến<select name="time" required><option value="">Chọn giờ</option><option>10:00</option><option>11:00</option><option>12:00</option><option>13:00</option><option>17:00</option><option>18:00</option><option>19:00</option><option>20:00</option><option>21:00</option></select></label></div>
+            <div class="form-row"><label>Số lượng khách<select name="guests" required><option value="1">1 khách</option><option value="2" selected>2 khách</option><option value="3">3 khách</option><option value="4">4 khách</option><option value="5">5 khách</option><option value="6">6 khách</option><option value="7">7 khách</option><option value="8">8 khách</option><option value="9">9 khách</option><option value="10">10 khách</option></select></label><label>Không gian<select name="area"><option>Không yêu cầu</option><option>Trong nhà</option><option>Ngoài trời</option><option>Gần cửa sổ</option><option>Phòng riêng</option></select></label></div>
+            <label>Ghi chú <span class="optional">(không bắt buộc)</span><textarea name="note" rows="3" placeholder="Ví dụ: sinh nhật, ghế trẻ em, dị ứng thực phẩm..."></textarea></label>
+            <button class="primary-button full-width" type="submit">Gửi yêu cầu đặt bàn <span>↗</span></button>
+            <p class="form-footnote">Gửi yêu cầu không đồng nghĩa với xác nhận bàn còn trống.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="confirmation-section container hidden" id="confirmation-section">
+      <div class="confirmation-card"><span class="success-icon">✓</span><div><p class="eyebrow">YÊU CẦU ĐÃ ĐƯỢC TẠO TRÊN DEMO</p><h2>Thông tin đặt bàn</h2><p id="confirmation-summary"></p><p class="form-footnote">Đây chỉ là bản demo trên trình duyệt, không phải xác nhận đặt bàn thật.</p></div><button id="new-booking" class="secondary-button">Tạo yêu cầu khác</button></div>
+    </section>
+  </main>
+  <footer><div class="container footer-inner"><a class="logo" href="#"><span class="logo-mark">T</span> TableEase</a><p>© 2026 TableEase · Dự án học tập</p><a href="#booking">Đặt bàn ↑</a></div></footer>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
