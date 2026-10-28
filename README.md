@@ -4,7 +4,7 @@ Website mẫu hỗ trợ khách hàng gửi yêu cầu đặt bàn tại nhà h�
 
 ## 🌐 Chạy demo trực tuyến
 
-👉 **[Xem demo TableEase](https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/)**
+👉 **[Xem demo TableEase](https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/index.html)**
 
 > Lưu ý: Thay `YOUR_USERNAME` bằng tên tài khoản GitHub và `YOUR_REPOSITORY` bằng tên repository của dự án. Link demo chỉ hoạt động sau khi bật GitHub Pages.
 
